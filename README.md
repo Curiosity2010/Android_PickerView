@@ -1,5 +1,5 @@
 # Android_PickerView
-300行代码 实现的Android选择器;View和数据分离
+300行代码 的Android选择器;View和数据分离
 
 
 1.PickerViewV1_0  ，版本 V1_0  ，测试ITEM滑动和 选择框抖动
