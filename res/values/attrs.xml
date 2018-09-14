@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+
+    <declare-styleable name="PickerViewV1_2Style">
+
+        <attr name="rectHeight" format="dimension"></attr>
+        <attr name="rectNum" format="integer"></attr>
+
+        <attr name="backgroundColor" format="color"></attr>
+
+        <attr name="lineColor" format="color"/>
+        <attr name="lineWidth" format="dimension"/>
+
+        <attr name="unSelectTxtColor" format="color"/>
+        <attr name="unSelectTxtSize" format="dimension"/>
+
+        <attr name="selectTxtColor" format="color"/>
+        <attr name="selectTxtSize" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--版本 V1_0  基础测试版本-->
+    <com.android_final_demo_proj.view.Picker.PickerViewV1_0
+        android:id="@+id/pickerView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <!--版本 V1_1  View和数据分离-->
+    <!--    <com.android_final_demo_proj.view.Picker.PickerViewV1_1
+            android:id="@+id/pickerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />-->
+    <!--版本 V1_2   支持在XML中配置属性-->
+    <com.android_final_demo_proj.view.Picker.PickerViewV1_2 xmlns:pickerView="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pickerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pickerView:backgroundColor="#000000"
+        pickerView:lineColor="#FA6A46"
+        pickerView:lineWidth="1dp"
+        pickerView:rectHeight="40dp"
+        pickerView:rectNum="5"
+        pickerView:selectTxtColor="#FA6A46"
+        pickerView:selectTxtSize="18sp"
+        pickerView:unSelectTxtColor="#FFFFFF"
+        pickerView:unSelectTxtSize="14sp" />
+
+    <Button
+        android:id="@+id/getCurrentItem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CurrentItem" />
+
+</LinearLayout>
