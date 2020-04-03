@@ -7,3 +7,5 @@
 2.PickerViewV1_1 ， 版本 V1_1  ，添加PickerViewAdapter,将View和数据分离
 
 3.PickerViewV1_2 ，  版本 V1_2  ， 支持在XML中配置属性
+
+4.湖南 长沙 岳麓区
